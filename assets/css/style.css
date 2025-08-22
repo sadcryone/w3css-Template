@@ -313,6 +313,8 @@ display: inline-block;
 }
 .content-section-tour-dates .section-heading-tour-dates{
     font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
     font-size: 26px;
     margin-bottom: 20px;
 }
@@ -356,20 +358,18 @@ display: inline-block;
     margin-right: 10px;
 }
 #content-address{
-    margin-top: 20px;
+    margin-top: 25px;
     display:flex;
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
     gap: 18px;
+    margin-bottom: 50px;
 }
 #content-address .section-content-address{ 
     background-color: #fff;
 
-}
-#content-address .section-content-address img{
-background: top center / cover no-repeat;
 }
 
 .section-content-address .section-name{
@@ -400,12 +400,103 @@ background: top center / cover no-repeat;
     width: 100px;
     height: 37px;
     border: 0px;
+    margin-bottom: 15px;
 }
 .section-content-address button:hover{
     cursor: pointer;
     background-color: #ccc;
     color: #000;
 }
+#content-contact{
+    padding: 64px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+#content-contact .content-section-contact,
+#content-contact .section-sub-text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#content-contact .content-section-contact{
+    font-weight: 500;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+#content-contact .section-sub-text{
+    opacity: 0.5;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.container-method-connected{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.contact-method{
+    width: 50%;
+}
+.ti-location-pin,
+.ti-headphone-alt,
+.ti-email{
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.contact-connected{
+    width: 50%;
+    
+}
+.contact-connected .connected-name,
+.contact-connected .connected-email,
+.contact-connected .connected-message{
+    border: 1px solid #ccc;
+    padding: 13px;
+}
+.contact-connected .connected-message{
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+.contact-connected .connected-button{
+        float: right;
+    background: #000;
+    width: 80px;
+    height: 35px;
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+}
+.contact-connected .connected-button:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+.image-address{
+    background: url('https://www.w3schools.com/w3images/map.jpg');
+    width: 100%;
+}
 #footer{
+    margin: 70px 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.6;
+}
+#footer .container-icon{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#footer p{
 
+}
+#footer .ti-facebook:hover,
+#footer .ti-html5:hover,
+#footer .ti-twitter:hover,
+#footer .ti-github:hover,
+#footer .ti-pinterest-alt:hover,
+#footer .ti-instagram:hover{
+    opacity: 0.6;
 }
