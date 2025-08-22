@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+html{
+    font-family: "Lato", sans-serif;
+}
+#main{
+
+}
+#header{
+    top:0;
+    height: 46.5px;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav{
+display: inline-block;
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+
+}
+#nav > li > a{
+    color: #fff;
+    text-transform: uppercase;
+
+}
+#nav li a{
+    font-size: 15px;
+    line-height: 46.5px;
+    padding: 0 24px;
+
+    text-decoration: none;
+    display: block;
+}
+
+
+#nav > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav{
+    position: absolute;
+        background-color: #fff;
+    display: none;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+#nav li:hover .subnav {
+    display: block;
+}
+.subnav li{
+    width: 100%;
+}
+.subnav li a{
+    color: #000;
+}
+.subnav li a:hover{
+    background-color: #ccc
+}
+#header #nav .arrow-down{
+    font-size: 11px;
+}
+#header .search-header{
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+#header .search-header .header-search{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+#header .search-header:hover{
+    background-color: red;
+}
+
+
+
+
+/* #header{
+    width: 100%;
+    height: 46.5px;
+    background-color: #000;
+    top:0;
+    position: fixed;
+}
+#nav{
+    display: inline-block;
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a {
+    color: #fff;
+}
+#nav > li > a{
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0 24px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#nav > li:hover > a{
+    background-color: #fff;
+    color: #000;
+}
+#nav .subnav {
+    top: 100%;
+    position: absolute;
+    display: none;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .subnav li {
+    display: block;
+    background-color: #fff;
+
+}
+#nav .subnav li a{
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0 40px 0px 16px;
+    text-transform: none;
+    color: #000;
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+
+}
+#nav .subnav li:hover{
+    background-color: #f1f;
+
+}
+#header .search-btn{
+        float: right;
+        padding: 12px 24px;
+
+}
+#header .search-btn:hover{
+    background-color: red;
+            cursor: pointer;
+}
+#header .search-icon{
+    color: #fff;
+    font-size: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #header{
+    width: 100%;
+    height: 46.5px;
+    background-color: #000;  
+    position: fixed; 
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a{
+    text-transform: uppercase;
+    color: #fff;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0px 24px;
+    display: inline-block;
+}
+#nav > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+#nav .subnav{
+    top: 100%;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .subnav a{
+    color: #000;
+    padding: 0px 50px 0px 16px;
+    line-height: 38px;
+}
+#nav .subnav li,
+#nav .subnav li a{
+    width: 100%;
+}
+
+#nav .subnav li:hover{
+    color: #000;
+    background-color: #ccc;
+} */
+#slider{
+    position: relative;
+    padding-top: 50%;
+    margin-top: 46.5px;
+    background: url('/assets/img/chicago.jpg') top center / cover no-repeat ;
+}
+#slider .text-content{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 32px 16px;
+    text-align: center;
+}
+.text-content .text-heading{
+    margin-bottom: 20px;
+}
+.text-content .text-description{
+    margin-bottom: 4px;
+}
+#content{
+    max-width: 800px;
+    padding: 64px 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+#content .content-section{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+#content .content-section .section-heading{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 26px;
+}
+#content .content-section .section-sub-heading{
+        margin-bottom: 20px;
+        opacity: 0.5;
+        font-style: italic;
+}
+#content .content-section .about-text{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#content .content-member{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+#content .content-member .member{
+    text-align: center;
+    width: 33.33%;
+    
+
+}
+.member .name-member{
+     margin-bottom: 10px;
+}
+#content-tour-dates{
+    padding: 64px 0px;
+    margin-left: auto;
+    margin-right: auto;
+        background-color: #000;
+}
+#content-Tour-dates .content-section-tour-dates{
+   width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#content-tour-dates .content-section-tour-dates{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content-section-tour-dates .section-heading-tour-dates,
+.content-section-tour-dates .section-sub-heading-tour{
+    color: #fff;
+}
+.content-section-tour-dates .section-heading-tour-dates{
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.content-section-tour-dates .section-sub-heading-tour{
+    opacity: 0.5;
+    font-style: italic;
+    font-size: 14px;
+}
+.content-seller{
+    background-color: #fff;
+    max-width: 800px;
+    height: 117.5px;
+    margin: 0 auto;
+}
+.content-seller  .section-tuor-seller{
+    display:flex;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.content-seller .section-tuor-seller .section-sub-seller{
+    background-color: #f44336;
+    max-width: 72px;
+    height: 22.5px;
+    color: #fff;
+    margin-left: 16px;
+    padding: 0px 8px;
+    font-size: 15px;
+    text-align: left;
+}
+.section-tuor-seller .section-tuor-nummber{
+    margin-left: auto;
+    width: 23px;
+    height: 22px;
+    background-color: #000;
+    border-radius: 100px;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+}
+#footer{
+
+}
