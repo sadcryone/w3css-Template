@@ -230,7 +230,7 @@ display: inline-block;
     position: relative;
     padding-top: 50%;
     margin-top: 46.5px;
-    background: url('/assets/img/chicago.jpg') top center / cover no-repeat ;
+    background: url('https://www.w3schools.com/w3images/chicago.jpg') top center / cover no-repeat ;
 }
 #slider .text-content{
     width: 100%;
