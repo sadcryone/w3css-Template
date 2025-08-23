@@ -145,7 +145,7 @@
             <p>Powered by <a href="" style="color: #000;">w3.css</a></p>
         </div>
         <div class="modal js-modal">
-            <div class="modal-container">
+            <div class="modal-container js-modal-container">
                 <div class="modal-close js-modal-close">
                     <i class="ti-close">
 
@@ -178,22 +178,6 @@
             </div>
         </div>
     </div>
-    <script>
-        const buyBtns =document.querySelectorAll('.js-buy-ticket');
-        const modal = document.querySelector('.js-modal');
-        const closes = document.querySelectorAll('.js-modal-close');
-        function hidenlBuytickets(){
-            modal.classList.remove('open');    
-        }
-        function modalBuytickets(){
-            modal.classList.add('open');    
-        }
-        for(const buyBtn of buyBtns){
-            buyBtn.addEventListener('click',modalBuytickets )
-        }
-        for(const close of closes){
-            close.addEventListener('click',hidenlBuytickets )
-        }
-    </script>
+    <script src="./assets/javascript/main.js"></script>
 </body>
 </html>

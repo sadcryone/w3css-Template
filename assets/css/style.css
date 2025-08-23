@@ -521,13 +521,13 @@ display: inline-block;
 }
 .modal.open{
     display: flex;
-} 
+}
 .modal .modal-container{
     background-color: #fff;
     width: 900px;
     min-height: 200px;
     position: relative;
-    animation: modalFaceIn ease 0.8s;
+    animation: hieuung ease 0.8s;
 
 }
 .modal-container .modal-close{
@@ -613,15 +613,14 @@ color: #Fff;
 .modal-help a{
     color: #2196F3;
 }
-@keyframes modalFaceIn {
-    from {
-        opacity: 0;
+@keyframes hieuung{
+    from{
         transform: translateY(-200px);
+        opacity: 0.2;
     }
-    
     to{
+        transform: translateY(0px);
         opacity: 1;
-        transform: translateY(0);
     }
 }
 
