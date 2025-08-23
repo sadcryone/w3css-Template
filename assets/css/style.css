@@ -7,9 +7,6 @@
 html{
     font-family: "Lato", sans-serif;
 }
-#main{
-
-}
 #header{
     top:0;
     height: 46.5px;
@@ -492,9 +489,6 @@ display: inline-block;
     margin-bottom: 20px;
     font-size: 20px;
 }
-#footer p{
-
-}
 #footer .ti-facebook:hover,
 #footer .ti-html5:hover,
 #footer .ti-twitter:hover,
@@ -513,22 +507,27 @@ display: inline-block;
 
 
 
-#modal{
+.modal{
     position: fixed;
     top:0;
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
     align-items: center;
     justify-content: center;
+    display: none;
 }
-#modal .modal-container{
+.modal.open{
+    display: flex;
+} 
+.modal .modal-container{
     background-color: #fff;
     width: 900px;
     min-height: 200px;
     position: relative;
+    animation: modalFaceIn ease 0.8s;
 
 }
 .modal-container .modal-close{
@@ -613,5 +612,16 @@ color: #Fff;
 }
 .modal-help a{
     color: #2196F3;
+}
+@keyframes modalFaceIn {
+    from {
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
